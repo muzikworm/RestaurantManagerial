@@ -26,10 +26,10 @@ public class JDBCMySQLConnection
       System.out.println("Driver could not be loaded: " + cnf);
     }
   }
-//  private static String connectionUrl = "jdbc:mysql://localhost:3306/restaurant?useSSL=false";
-//  private static String dbUser = "root";
-//  private static String dbPwd = "1234";
-//  private static Connection conn;
+private static String connectionUrl = "jdbc:mysql://localhost:3306/restaurant?useSSL=false";
+private static String dbUser = "root";
+private static String dbPwd = "1234";
+private static Connection conn;
 
 
 public int loginfuction(String n, String p) {
