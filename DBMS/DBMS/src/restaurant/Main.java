@@ -8,7 +8,8 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
     public static Stage mystage=new Stage();
-    public static Stage customerstage=new Stage();
+    public static Stage mystage=new Stage1();
+    public static Stage customerstage=new Stage1();
     public static Stage managerstage=new Stage();
 	@Override
 	public void start(Stage primaryStage) {
