@@ -4,10 +4,12 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.application.Application;
+import javafx.stage;
 import javafx.stage.Stage;
 
 public class Main extends Application {
     public static Stage mystage=new Stage();
+    public static Stage mystage1=new Stage();
     public static Stage customerstage=new Stage();
     public static Stage managerstage=new Stage();
 	@Override
@@ -20,6 +22,7 @@ public class Main extends Application {
 			Parent root = loader.load();
 			Scene scene1 = new Scene(root);
 			mystage.setScene(scene1);
+			mystage.show();
 			mystage.show();
 			
 			
